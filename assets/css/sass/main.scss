@@ -1,0 +1,26 @@
+
+@import 'abstracts/variables';
+@import 'abstracts/mixin';
+
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+
+@import  'components/navbar';
+@import  'components/buttons';
+@import  'components/pagination';
+@import  'components/input';
+@import  'components/tags';
+@import  'components/card';
+@import  'components/modal';
+
+
+@import 'layout/header';
+@import 'layout/section';
+@import 'layout/footer';
+@import 'layout/mainsection';
+@import 'layout/aside';
+
+@import 'vendors/bootstrap-4.1/bootstrap.scss';

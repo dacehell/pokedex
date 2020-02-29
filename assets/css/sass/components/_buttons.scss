@@ -1,0 +1,77 @@
+.form-inline {
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 30px 0 40px 0;
+    -webkit-box-align: center;
+}
+
+input,
+button {
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(83, 76, 212, 0.56);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(83, 76, 212, 0.56);
+    box-shadow: 0px 0px 14px 2px rgba(83, 76, 212, 0.56);
+
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .card-btn {
+        font-size: .8rem;
+
+    }
+
+}
+
+.btn-pagination {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button {
+        color: rgb(238, 237, 234);
+        background-color: rgb(54, 110, 169);
+        border: none;
+        border-radius: 3px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 0px 0px 14px 2px rgba(83, 76, 212, 0.56);
+        -moz-box-shadow: 0px 0px 14px 2px rgba(83, 76, 212, 0.56);
+        box-shadow: 0px 0px 14px 2px rgba(83, 76, 212, 0.56);
+    }
+}
+
+.search {
+    width: 18%;
+}
+
+@media only screen and (max-width: 600px) {
+    .search {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .cartas {
+        .card {
+            margin-left: 6.5rem !important;
+            margin-right: 6.5rem !important;
+        }
+
+    }
+
+}
